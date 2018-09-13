@@ -9,6 +9,7 @@ module.exports = {
     path: __dirname + '/dist',
     filename: 'index_bundle.js'
   },
+  externals: ['tls', 'net', 'fs'],
 
   plugins: [
     // Generates default index.html
